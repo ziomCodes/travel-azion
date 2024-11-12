@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18a4147d.css",
+    "main.js": "/static/js/main.2d6bfd0c.js",
+    "static/js/453.72284440.chunk.js": "/static/js/453.72284440.chunk.js",
+    "static/media/llog.avif": "/static/media/llog.bab5d0915c8da5c31c2b.avif",
+    "static/media/afar.jpg": "/static/media/afar.b9ab4d9115628c79b933.jpg",
+    "static/media/lalibela.jpg": "/static/media/lalibela.3804db5205310170c60d.jpg",
+    "static/media/ommo.jpg": "/static/media/ommo.3dc31bcc7343b3f2ced3.jpg",
+    "static/media/lallb.jpg": "/static/media/lallb.510d24e70e732d7ccb78.jpg",
+    "static/media/Gondar.webp": "/static/media/Gondar.2f814b0be64ecdf8db91.webp",
+    "static/media/Geralta.jpg": "/static/media/Geralta.addccd8b72b3e74ca01a.jpg",
+    "static/media/omo.jpg": "/static/media/omo.d535b02d31acfaa43166.jpg",
+    "static/media/axzion.jpg": "/static/media/axzion.446a439894629c752ae6.jpg",
+    "static/media/axum.jpg": "/static/media/axum.90315202f4b44b9b0a62.jpg",
+    "static/media/wonchi.jpg": "/static/media/wonchi.d94d99e31115bc4f18d1.jpg",
+    "static/media/aboutUs.jpg": "/static/media/aboutUs.c1fec410f2e62ecddaea.jpg",
+    "index.html": "/index.html",
+    "main.18a4147d.css.map": "/static/css/main.18a4147d.css.map",
+    "main.2d6bfd0c.js.map": "/static/js/main.2d6bfd0c.js.map",
+    "453.72284440.chunk.js.map": "/static/js/453.72284440.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18a4147d.css",
+    "static/js/main.2d6bfd0c.js"
+  ]
+}
