@@ -21,20 +21,17 @@ Clone the Repository:
 
 bash
 
-Copy code
 git clone https://github.com/ziomCodes/travel-azion.git
 cd travel-azion
 Install Dependencies:
 
 bash
 
-Copy code
 yarn install
 Run the Application:
 
 bash
 
-Copy code
 yarn start
 Access the Application: Open your browser and go to http://localhost:3000.
 
@@ -51,28 +48,7 @@ Interactive booking form with custom fields for travel details.
 booking confirmation messages.
 About Us Page:
 Real-time comment section for users to engage with the site.
-📁 Project Structure
-css
 
-Copy code
-├── public
-│   ├── index.html
-│   └── images (destination images, background, etc.)
-├── src
-│   ├── components
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── SignupLogin.js
-│   │   ├── BookingConfirmation.js
-│   │   └── AboutUs.js
-│   ├── styles
-│   │   ├── App.css
-│   │   ├── SignupLogin.css
-│   │   ├── BookingConfirmation.css
-│   │   └── Footer.css
-│   ├── App.js
-│   └── index.js
-└── README.md
 🛠️ Technologies Used
 React.js: Frontend framework for building user interfaces.
 Local Storage: Saves user data locally for login sessions and booking history.
@@ -83,7 +59,7 @@ CSS3: Styled components and animations for a dynamic user experience.
 Sign Up / Log In: Register to create an account or log in if you already have one.
 Explore Destinations: Navigate to the booking page and explore available travel destinations.
 Book a Trip: Enter your details, confirm, and receive instant booking confirmation.
-View Booking History: Access past bookings via the booking history option.
+
 Engage with the Community: Visit the "About Us" page to leave comments or feedback.
 🌟 Future Enhancements
 Payment Integration: Add payment gateway options.
