@@ -1,0 +1,89 @@
+.exploring-container {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.destinations-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.destination-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    max-width: 45%; /* Display two items side-by-side */
+    flex: 1 1 45%;
+    position: relative;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .destination-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+.destination-image {
+    width: 100%;
+    height: auto;
+    max-height: 160px; /* Reduced image height */
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.destination-info {
+    background: rgba(0, 0, 0, 0.75); /* Dark transparent background */
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: left;
+}
+
+    .destination-info h3 {
+        margin: 0 0 8px;
+        font-size: 20px;
+    }
+
+    .destination-info p {
+        margin: 0 0 10px;
+        font-size: 14px;
+    }
+
+.price {
+    font-size: 16px;
+    color: #2ecc71;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.book-now-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .book-now-btn:hover {
+        background-color: #2980b9;
+        transform: scale(1.05);
+    }
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .destination-card {
+        max-width: 100%; /* Stack items vertically on smaller screens */
+    }
+}
