@@ -1,0 +1,122 @@
+/* src/styles/App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../../images/llog.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.app-container {
+ 
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevents scrolling */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: #ecf0f1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-shrink: 0; /* Ensures header has a fixed height */
+}
+
+    .header h1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+    }
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+.header nav a {
+  margin-left: 1.5rem;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.header nav a:hover {
+  color: #3498db;
+}
+.header nav a.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #3498db;
+  position: absolute;
+  bottom: -4px; /* Slightly below the link */
+  left: 0;
+}
+
+.image-slider {
+  flex-grow: 1; /* Expands to fill remaining space */
+  overflow: hidden; /* Prevents scroll */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.social-media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+    .social-media a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        transition: color 0.1s;
+    }
+
+        .social-media a:hover {
+            color: #2dc322;
+        }
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    align-items: center;
+}
