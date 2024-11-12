@@ -1,0 +1,69 @@
+/* src/styles/SignupLogin.css */
+
+.signup-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  background-image: url('./lalibela.jpg');
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Increased width */
+  margin: 5rem auto;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.signup-login button {
+  margin-bottom: 1.5rem;
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.8rem 1.5rem; /* Increased padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-login button:hover {
+  background-color: #2980b9;
+}
+
+.signup-login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signup-login form input {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  color: #2ecc71; /* Success message color */
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.signup-login form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-login form button:hover {
+  background-color: #2980b9;
+}
